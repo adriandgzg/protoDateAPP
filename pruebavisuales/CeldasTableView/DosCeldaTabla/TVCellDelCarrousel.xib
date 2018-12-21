@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TVCellDelCarrousel" rowHeight="291" id="KGk-i7-Jjw" customClass="TVCellDelCarrousel" customModule="pruebavisuales" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="572" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="572" height="169.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ykj-hv-D4O">
+                        <rect key="frame" x="0.0" y="0.0" width="572" height="169.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amE-yo-NeC">
+                                <rect key="frame" x="20" y="10" width="532" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="UnO-oe-LTX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="fIL-Sb-QUu">
+                                <rect key="frame" x="24" y="53" width="528" height="116.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ISI-oI-A6E">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="amE-yo-NeC" firstAttribute="top" secondItem="ykj-hv-D4O" secondAttribute="top" constant="10" id="ESw-zv-n6a"/>
+                            <constraint firstAttribute="trailing" secondItem="amE-yo-NeC" secondAttribute="trailing" constant="20" id="JSY-j5-NTc"/>
+                            <constraint firstAttribute="bottom" secondItem="fIL-Sb-QUu" secondAttribute="bottom" id="SyA-ci-pOX"/>
+                            <constraint firstItem="fIL-Sb-QUu" firstAttribute="top" secondItem="amE-yo-NeC" secondAttribute="bottom" constant="8" symbolic="YES" id="ag5-nd-IWN"/>
+                            <constraint firstItem="fIL-Sb-QUu" firstAttribute="trailing" secondItem="amE-yo-NeC" secondAttribute="trailing" id="ldp-j0-dN0"/>
+                            <constraint firstItem="fIL-Sb-QUu" firstAttribute="leading" secondItem="ykj-hv-D4O" secondAttribute="leading" constant="24" id="vqF-9H-mo5"/>
+                            <constraint firstItem="amE-yo-NeC" firstAttribute="leading" secondItem="ykj-hv-D4O" secondAttribute="leading" constant="20" id="zHN-Xo-lMv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ykj-hv-D4O" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="GA2-Xk-Gmf"/>
+                    <constraint firstItem="ykj-hv-D4O" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kxU-w6-b9u"/>
+                    <constraint firstItem="ykj-hv-D4O" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uOT-Dx-lOp"/>
+                    <constraint firstAttribute="trailing" secondItem="ykj-hv-D4O" secondAttribute="trailing" id="xTG-L8-0bL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitulodeCarrusel" destination="amE-yo-NeC" id="jEp-CZ-IdP"/>
+                <outlet property="mycollection" destination="fIL-Sb-QUu" id="BrC-VD-Ue4"/>
+            </connections>
+            <point key="canvasLocation" x="118" y="206.5"/>
+        </tableViewCell>
+    </objects>
+</document>
