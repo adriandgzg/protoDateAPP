@@ -71,7 +71,7 @@ class VCInforCountry: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         
-    performSegue(withIdentifier: "ciudad", sender: nil)
+    performSegue(withIdentifier: "invitation", sender: nil)
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

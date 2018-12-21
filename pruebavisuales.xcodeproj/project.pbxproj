@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0204971E21CCC178006FE920 /* Match.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0204971D21CCC178006FE920 /* Match.storyboard */; };
 		4826DF4A826ABE9F54736D71 /* Pods_pruebavisualesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D271B99524D496DF39F3F69F /* Pods_pruebavisualesUITests.framework */; };
 		786071A7268F576EF1981FFC /* Pods_pruebavisualesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D7CDD4FAC4ACFA4486212F /* Pods_pruebavisualesTests.framework */; };
 		87AD57A24E0427B38ACD3E0D /* Pods_pruebavisuales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D4D0A2C596D47D20C85340 /* Pods_pruebavisuales.framework */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0204971D21CCC178006FE920 /* Match.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Match.storyboard; sourceTree = "<group>"; };
 		07A57B2DEE471B520D9E1B66 /* Pods-pruebavisualesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisualesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisualesUITests/Pods-pruebavisualesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		387A0D8FD3BA0939B7D47612 /* Pods-pruebavisuales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisuales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisuales/Pods-pruebavisuales.debug.xcconfig"; sourceTree = "<group>"; };
 		41D7CDD4FAC4ACFA4486212F /* Pods_pruebavisualesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pruebavisualesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -272,6 +274,7 @@
 				BF20A10E21386E43005C812E /* LaunchScreen.storyboard */,
 				BF20A11121386E43005C812E /* Info.plist */,
 				BF29B6A72140BE1D00C9E99C /* GoogleService-Info.plist */,
+				0204971D21CCC178006FE920 /* Match.storyboard */,
 			);
 			path = pruebavisuales;
 			sourceTree = "<group>";
@@ -425,6 +428,7 @@
 				BF20A10D21386E43005C812E /* Assets.xcassets in Resources */,
 				BFDB38F5213DDF1B00112995 /* InsideaCountry.xib in Resources */,
 				BF138F5E2142EC3E003DB920 /* CVCellDeCarrousel.xib in Resources */,
+				0204971E21CCC178006FE920 /* Match.storyboard in Resources */,
 				BF29B6A5214097E100C9E99C /* TVCell.xib in Resources */,
 				BF20A10B21386E43005C812E /* Main.storyboard in Resources */,
 				BF1BC8C32138DB1F00E02203 /* CountriesCollectionViewCell.xib in Resources */,

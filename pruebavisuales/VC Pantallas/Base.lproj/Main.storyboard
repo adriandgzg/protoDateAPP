@@ -1003,12 +1003,33 @@
                                     <constraint firstAttribute="height" constant="140" id="obP-eu-crk"/>
                                 </constraints>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Avatars" translatesAutoresizingMaskIntoConstraints="NO" id="HVp-YY-umv">
+                                <rect key="frame" x="16" y="280" width="81" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5sA-FS-WuN"/>
+                                    <constraint firstAttribute="width" constant="81" id="Oil-X2-hba"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="108 amigos, 2 amigos en comun" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aO-Fg-V51">
+                                <rect key="frame" x="103" y="284" width="256" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="98s-Ml-TpO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="KOe-Bb-eoZ" firstAttribute="trailing" secondItem="6aO-Fg-V51" secondAttribute="trailing" constant="16" id="BvD-mU-tti"/>
+                            <constraint firstItem="6aO-Fg-V51" firstAttribute="leading" secondItem="HVp-YY-umv" secondAttribute="trailing" constant="6" id="Ec2-9M-VlR"/>
                             <constraint firstItem="Pls-tY-fcQ" firstAttribute="leading" secondItem="KOe-Bb-eoZ" secondAttribute="leading" id="L1q-dX-9sI"/>
+                            <constraint firstItem="HVp-YY-umv" firstAttribute="top" secondItem="Pls-tY-fcQ" secondAttribute="bottom" constant="110" id="SkK-Hx-9Y6"/>
                             <constraint firstItem="ibz-NH-Bk3" firstAttribute="centerX" secondItem="KOe-Bb-eoZ" secondAttribute="centerX" id="U6i-o9-Hwo"/>
                             <constraint firstItem="ibz-NH-Bk3" firstAttribute="top" secondItem="KOe-Bb-eoZ" secondAttribute="top" constant="100" id="c2B-ay-87q"/>
+                            <constraint firstItem="6aO-Fg-V51" firstAttribute="centerY" secondItem="HVp-YY-umv" secondAttribute="centerY" id="dx3-Gp-yCc"/>
+                            <constraint firstItem="HVp-YY-umv" firstAttribute="leading" secondItem="KOe-Bb-eoZ" secondAttribute="leading" constant="16" id="hFd-t8-aki"/>
                             <constraint firstItem="Pls-tY-fcQ" firstAttribute="top" secondItem="KOe-Bb-eoZ" secondAttribute="top" id="iq2-f3-ZNy"/>
                             <constraint firstItem="KOe-Bb-eoZ" firstAttribute="trailing" secondItem="Pls-tY-fcQ" secondAttribute="trailing" id="zy8-w9-qcC"/>
                         </constraints>
@@ -1519,6 +1540,7 @@
                         <outlet property="CountryinsidecollectionView" destination="cbW-yy-ML1" id="gao-7i-ytf"/>
                         <outlet property="lblDescripcion" destination="nXF-DO-z7c" id="wBz-Jh-EmQ"/>
                         <outlet property="lblNombre" destination="1dn-lM-uvL" id="QXZ-R9-DLe"/>
+                        <segue destination="JoE-df-dXb" kind="show" identifier="invitation" id="3t0-KD-8IO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5N1-k4-gba" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1549,6 +1571,14 @@
             </objects>
             <point key="canvasLocation" x="884" y="739.88005997001505"/>
         </scene>
+        <!--Match-->
+        <scene sceneID="qWZ-xY-B0i">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Match" id="JoE-df-dXb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPV-Cz-Rm2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3082" y="1288"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Avatars" width="81" height="40"/>
@@ -1575,7 +1605,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="nyI-n8-UTe"/>
-        <segue reference="onl-2S-RX1"/>
+        <segue reference="eMu-MJ-JQn"/>
         <segue reference="uLy-RY-hMs"/>
         <segue reference="IBN-AS-igB"/>
     </inferredMetricsTieBreakers>
