@@ -51,7 +51,7 @@ class VCInforCountry: UIViewController, UICollectionViewDataSource, UICollection
         
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
-        layout.minimumLineSpacing = 40
+        layout.minimumLineSpacing = 30
         layout.minimumInteritemSpacing = 10
         let size = CGSize(width: CountryinsidecollectionView.frame.size.width - 150, height: CountryinsidecollectionView.frame.size.height)
         layout.itemSize = size

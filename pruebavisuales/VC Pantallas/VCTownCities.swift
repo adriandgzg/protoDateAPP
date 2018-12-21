@@ -112,5 +112,8 @@ class VCTownCities: UIViewController, UICollectionViewDataSource, UICollectionVi
         }
     }
  
+    @IBAction func back(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
     
 }
