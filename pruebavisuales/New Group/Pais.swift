@@ -36,30 +36,30 @@ class PAIS: NSObject {
     static func arraydeinformacion() -> [PAIS]{
         var inforpais : [PAIS] = []
         
-        let Brasil = PAIS ()
-        Brasil.NombrePais = "BRASIL"
-        Brasil.DescripcionPais = "Scotland, the U.K.’s northernmost country, is a land of mountain wildernesses such as the Cairngorms and Northwest Highlands, interspersed with glacial glens (valleys) and lochs (lakes)."
-        Brasil.foto = UIImage(named: "thailandia")!
+        let LaSanta = PAIS ()
+        LaSanta.NombrePais = "La Santa"
+        LaSanta.DescripcionPais = "Llega la noche y la esquina de Masaryk y Tennyson se llena de gente, hacia el cielo irradia el nombre del club en letras rojas y brillantes con una aureola angelical sobre la S."
+        LaSanta.foto = UIImage(named: "LaSanta")!
         
             let Manaos = PAIS ()
-            Manaos.NombrePais = "MANAOS"
-            Manaos.DescripcionPais = "Es una ciudad colonial"
-            Manaos.foto = UIImage(named:"C1")!
+            Manaos.NombrePais = "Jose"
+            Manaos.DescripcionPais = "Al cruzar la puerta negra de la entrada, la creación de los arquitectos Emmanuel Picault y Ludwig Godefroy contrasta con la descuidada fachada exterior."
+            Manaos.foto = UIImage(named:"Persona1")!
         
             let Curitiva = PAIS ()
-            Curitiva.NombrePais = "CURITIVA"
+            Curitiva.NombrePais = "Pedro"
             Curitiva.DescripcionPais = "Es una ciudad colonial"
-            Curitiva.foto = UIImage(named:"C2")!
+            Curitiva.foto = UIImage(named:"Persona2")!
         
             let Manaos2 = PAIS ()
-            Manaos2.NombrePais = "MANAOS2"
+            Manaos2.NombrePais = "Joaquin"
             Manaos2.DescripcionPais = "Es una ciudad colonial"
-            Manaos2.foto = UIImage(named:"C3")!
+            Manaos2.foto = UIImage(named:"Persona3")!
         
             let Curitiva2 = PAIS ()
-            Curitiva2.NombrePais = "CURITIVA2"
+            Curitiva2.NombrePais = "Sofia"
             Curitiva2.DescripcionPais = "Es una ciudad colonial"
-            Curitiva2.foto = UIImage(named:"C4")!
+            Curitiva2.foto = UIImage(named:"Persona4")!
     
         let España = PAIS ()
         España.NombrePais = "ESPAÑA"
@@ -135,15 +135,16 @@ class PAIS: NSObject {
         Photo6.foto = UIImage (named: "C6")!
         
     
-    Brasil.pueblos.append(Manaos)
-    Brasil.pueblos.append(Curitiva)
-    Brasil.pueblos.append(Manaos2)
-    Brasil.pueblos.append(Curitiva2)
+    LaSanta.pueblos.append(Manaos)
+    LaSanta.pueblos.append(Curitiva)
+    LaSanta.pueblos.append(Manaos2)
+    LaSanta.pueblos.append(Curitiva2)
+        
     España.pueblos.append(Madrid)
     España.pueblos.append(Sevilla)
 
     
-    inforpais = [Brasil, España , Islandia,Suecia, Tailandia, Photo1, Photo2, Photo3, Photo4, Photo5, Photo6 ]
+    inforpais = [LaSanta, España , Islandia,Suecia, Tailandia, Photo1, Photo2, Photo3, Photo4, Photo5, Photo6 ]
         
         return inforpais
     }

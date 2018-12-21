@@ -12,6 +12,7 @@ import FirebaseAuth
 class VCInforCountry: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate
 {
     
+    @IBOutlet weak var lblCheckIn: UILabel!
     @IBOutlet weak var lblNombre: UILabel!
     @IBOutlet weak var lblDescripcion: UILabel!
     @IBOutlet weak var CountryinsidecollectionView: UICollectionView!
@@ -19,6 +20,7 @@ class VCInforCountry: UIViewController, UICollectionViewDataSource, UICollection
     var datosarecibir : PAIS?
    
     
+    @IBOutlet weak var checkIn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +43,10 @@ class VCInforCountry: UIViewController, UICollectionViewDataSource, UICollection
         CountryinsidecollectionView.collectionViewLayout = layout
     }
     
+    @IBAction func clickCheckIn(_ sender: Any) {
+        
+        lblCheckIn.isHidden = false
+    }
     func regresaConfiguraciondeELEmentosdelCollection()-> UICollectionViewLayout{
         
         let layout = UICollectionViewFlowLayout()
@@ -59,6 +65,9 @@ class VCInforCountry: UIViewController, UICollectionViewDataSource, UICollection
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func back(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         

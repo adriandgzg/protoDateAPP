@@ -108,17 +108,24 @@ class VCMain: UIViewController , UICollectionViewDataSource, UICollectionViewDel
         
         celdaseleccionada = indexPath.row
         let datosselec = otrainfor[celdaseleccionada]
-        self.performSegue(withIdentifier: "show", sender: datosselec)
+        self.performSegue(withIdentifier: "show2", sender: datosselec)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "show"{
+        if segue.identifier == "show2"{
+           
+            if let datosselecInfor = segue.destination as? VCInforCountry {
+                
+                if let datosenviar = sender as? PAIS {
+                    datosselecInfor.datosarecibir = datosenviar
+                }
+            }/*
             if let datosselec = segue.destination as? VCShowSelection {
     
                 if let datosenviar = sender as? PAIS {
                     datosselec.datosseleccionados = datosenviar
                 }
-            }
+            }*/
         }
     }
     
