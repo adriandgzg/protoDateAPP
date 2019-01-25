@@ -26,7 +26,7 @@ class VCInforCountry: UIViewController, UICollectionViewDataSource, UICollection
         super.viewDidLoad()
         
    
-    self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain , target: nil, action: nil)
+    self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain , target: nil, action: nil)
     self.navigationItem.backBarButtonItem?.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         
         lblNombre.text = datosarecibir?.NombrePais

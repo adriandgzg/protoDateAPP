@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0204971E21CCC178006FE920 /* Match.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0204971D21CCC178006FE920 /* Match.storyboard */; };
+		3ADCF1D321FAC47500AFDDE1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCF1D221FAC47500AFDDE1 /* Helper.swift */; };
 		4826DF4A826ABE9F54736D71 /* Pods_pruebavisualesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D271B99524D496DF39F3F69F /* Pods_pruebavisualesUITests.framework */; };
 		786071A7268F576EF1981FFC /* Pods_pruebavisualesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D7CDD4FAC4ACFA4486212F /* Pods_pruebavisualesTests.framework */; };
 		87AD57A24E0427B38ACD3E0D /* Pods_pruebavisuales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D4D0A2C596D47D20C85340 /* Pods_pruebavisuales.framework */; };
@@ -68,6 +69,7 @@
 		0204971D21CCC178006FE920 /* Match.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Match.storyboard; sourceTree = "<group>"; };
 		07A57B2DEE471B520D9E1B66 /* Pods-pruebavisualesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisualesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisualesUITests/Pods-pruebavisualesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		387A0D8FD3BA0939B7D47612 /* Pods-pruebavisuales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisuales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisuales/Pods-pruebavisuales.debug.xcconfig"; sourceTree = "<group>"; };
+		3ADCF1D221FAC47500AFDDE1 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		41D7CDD4FAC4ACFA4486212F /* Pods_pruebavisualesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pruebavisualesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8684E9F99468C737D70F2A4F /* Pods-pruebavisualesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisualesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisualesTests/Pods-pruebavisualesTests.release.xcconfig"; sourceTree = "<group>"; };
 		A255F59B0D9D5B3E4417236F /* Pods-pruebavisuales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisuales.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisuales/Pods-pruebavisuales.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +159,14 @@
 				07A57B2DEE471B520D9E1B66 /* Pods-pruebavisualesUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3ADCF1D121FAC46300AFDDE1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3ADCF1D221FAC47500AFDDE1 /* Helper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		4B88F9240C86FCC2997C4DAC /* Frameworks */ = {
@@ -265,6 +275,7 @@
 		BF20A10421386E43005C812E /* pruebavisuales */ = {
 			isa = PBXGroup;
 			children = (
+				3ADCF1D121FAC46300AFDDE1 /* Helper */,
 				BF1BC8CF2139C8D300E02203 /* VC Pantallas */,
 				BF1BC8CE2139C8BC00E02203 /* Datos */,
 				BF1BC8CD2139C8A900E02203 /* NavController */,
@@ -379,6 +390,7 @@
 				TargetAttributes = {
 					BF20A10121386E43005C812E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -388,11 +400,13 @@
 					};
 					BF20A11521386E43005C812E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BF20A10121386E43005C812E;
 					};
 					BF20A12021386E43005C812E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BF20A10121386E43005C812E;
 					};
@@ -548,6 +562,7 @@
 				BF1BC8C22138DB1F00E02203 /* CountriesCollectionViewCell.swift in Sources */,
 				BFDB38F4213DDF1B00112995 /* InsideaCountry.swift in Sources */,
 				BF5E3906214867E40005A929 /* VCMapSpot.swift in Sources */,
+				3ADCF1D321FAC47500AFDDE1 /* Helper.swift in Sources */,
 				BF5E3982214B07790005A929 /* VCProfile.swift in Sources */,
 				BF138F5D2142EC3E003DB920 /* CVCellDeCarrousel.swift in Sources */,
 				BF138F552142DE9A003DB920 /* TVCellDelCarrousel.swift in Sources */,
@@ -730,7 +745,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adriandgzg.pruebavisuales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -746,7 +761,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adriandgzg.pruebavisuales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -763,7 +778,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.pruebavisualesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pruebavisuales.app/pruebavisuales";
 			};
@@ -781,7 +796,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.pruebavisualesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pruebavisuales.app/pruebavisuales";
 			};
@@ -798,7 +813,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.pruebavisualesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = pruebavisuales;
 			};
@@ -815,7 +830,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Adriandgzg.pruebavisualesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = pruebavisuales;
 			};

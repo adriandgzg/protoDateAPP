@@ -25,7 +25,7 @@ class VCMapSpot: UIViewController, CLLocationManagerDelegate, UINavigationContro
     @IBOutlet weak var Map: MKMapView!
     @IBOutlet weak var ViewDesc: UIView!
     
-  let direction: [UISwipeGestureRecognizerDirection] = [.up, .down]
+  let direction: [UISwipeGestureRecognizer.Direction] = [.up, .down]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -102,10 +102,23 @@ class VCMapSpot: UIViewController, CLLocationManagerDelegate, UINavigationContro
     }
     
     //MARK: - Done image capture here
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+// Local variable inserted by Swift 4.2 migrator.
+let info = convertFromUIImagePickerControllerInfoKeyDictionary(info)
+
         imagePicker.dismiss(animated: true, completion: nil)
-        image.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        image.image = info[convertFromUIImagePickerControllerInfoKey(UIImagePickerController.InfoKey.originalImage)] as? UIImage
     }
         
     
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKeyDictionary(_ input: [UIImagePickerController.InfoKey: Any]) -> [String: Any] {
+	return Dictionary(uniqueKeysWithValues: input.map {key, value in (key.rawValue, value)})
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromUIImagePickerControllerInfoKey(_ input: UIImagePickerController.InfoKey) -> String {
+	return input.rawValue
 }

@@ -29,7 +29,7 @@ class VCExplore: UIViewController, UITableViewDelegate, UITableViewDataSource, U
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain , target: nil, action: nil)
+    self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain , target: nil, action: nil)
     self.navigationItem.backBarButtonItem?.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         
     ciudades = Ciudades()
@@ -146,9 +146,9 @@ class VCExplore: UIViewController, UITableViewDelegate, UITableViewDataSource, U
         
         if indexPath.section == 1 {
         selectCelda = indexPath.row
-        let datosselectCelda = ciudades?.arrFeatures[selectCelda]
+     //   let datosselectCelda = ciudades?.arrFeatures[selectCelda]
             
-        print(datosselectCelda?.titulo)
+      
         }
         
     }

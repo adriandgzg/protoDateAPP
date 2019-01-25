@@ -29,7 +29,7 @@ class VCMain: UIViewController , UICollectionViewDataSource, UICollectionViewDel
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "" , style: UIBarButtonItemStyle.plain , target: nil, action: nil)
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "" , style: UIBarButtonItem.Style.plain , target: nil, action: nil)
         
         self.navigationItem.backBarButtonItem?.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         
@@ -50,7 +50,7 @@ class VCMain: UIViewController , UICollectionViewDataSource, UICollectionViewDel
         imageView.frame = viewBackground.bounds
         viewBackground.addSubview(imageView)
         
-        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.regular)
+        let blurEffect = UIBlurEffect(style: UIBlurEffect.Style.regular)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = viewBackground.bounds
         blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
