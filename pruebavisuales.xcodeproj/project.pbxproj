@@ -11,6 +11,13 @@
 		4826DF4A826ABE9F54736D71 /* Pods_pruebavisualesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D271B99524D496DF39F3F69F /* Pods_pruebavisualesUITests.framework */; };
 		786071A7268F576EF1981FFC /* Pods_pruebavisualesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D7CDD4FAC4ACFA4486212F /* Pods_pruebavisualesTests.framework */; };
 		87AD57A24E0427B38ACD3E0D /* Pods_pruebavisuales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D4D0A2C596D47D20C85340 /* Pods_pruebavisuales.framework */; };
+		A40E50D621FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40E50D421FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.swift */; };
+		A40E50D721FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A40E50D521FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.xib */; };
+		A40E50DA21FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40E50D821FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.swift */; };
+		A40E50DB21FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A40E50D921FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.xib */; };
+		A4BCDF6221FA95EB00DF3420 /* TBCMPerfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCDF6121FA95EB00DF3420 /* TBCMPerfilesViewController.swift */; };
+		A4BCDF6421FA95F700DF3420 /* TBCMPerfiles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BCDF6321FA95F700DF3420 /* TBCMPerfiles.storyboard */; };
+		A4BCDF6621FA965900DF3420 /* TBCPerfilesNegocioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BCDF6521FA965900DF3420 /* TBCPerfilesNegocioViewController.swift */; };
 		BF138F552142DE9A003DB920 /* TVCellDelCarrousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF138F532142DE9A003DB920 /* TVCellDelCarrousel.swift */; };
 		BF138F562142DE9A003DB920 /* TVCellDelCarrousel.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF138F542142DE9A003DB920 /* TVCellDelCarrousel.xib */; };
 		BF138F592142DFBB003DB920 /* TVCelldeImagenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF138F572142DFBB003DB920 /* TVCelldeImagenes.swift */; };
@@ -72,6 +79,13 @@
 		8684E9F99468C737D70F2A4F /* Pods-pruebavisualesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisualesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisualesTests/Pods-pruebavisualesTests.release.xcconfig"; sourceTree = "<group>"; };
 		A255F59B0D9D5B3E4417236F /* Pods-pruebavisuales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisuales.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisuales/Pods-pruebavisuales.release.xcconfig"; sourceTree = "<group>"; };
 		A2B9B29933B1E2E5FDACA0C5 /* Pods-pruebavisualesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisualesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisualesUITests/Pods-pruebavisualesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A40E50D421FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBCPerfilesOnNegocioTableViewCell.swift; sourceTree = "<group>"; };
+		A40E50D521FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TBCPerfilesOnNegocioTableViewCell.xib; sourceTree = "<group>"; };
+		A40E50D821FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBCPerfilesPersonasCollectionViewCell.swift; sourceTree = "<group>"; };
+		A40E50D921FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TBCPerfilesPersonasCollectionViewCell.xib; sourceTree = "<group>"; };
+		A4BCDF6121FA95EB00DF3420 /* TBCMPerfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBCMPerfilesViewController.swift; sourceTree = "<group>"; };
+		A4BCDF6321FA95F700DF3420 /* TBCMPerfiles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TBCMPerfiles.storyboard; sourceTree = "<group>"; };
+		A4BCDF6521FA965900DF3420 /* TBCPerfilesNegocioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBCPerfilesNegocioViewController.swift; sourceTree = "<group>"; };
 		BF138F532142DE9A003DB920 /* TVCellDelCarrousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCellDelCarrousel.swift; sourceTree = "<group>"; };
 		BF138F542142DE9A003DB920 /* TVCellDelCarrousel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVCellDelCarrousel.xib; sourceTree = "<group>"; };
 		BF138F572142DFBB003DB920 /* TVCelldeImagenes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCelldeImagenes.swift; sourceTree = "<group>"; };
@@ -170,6 +184,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A4BCDF6021FA959500DF3420 /* TabBarControllerNegocio */ = {
+			isa = PBXGroup;
+			children = (
+				A4BCDF6121FA95EB00DF3420 /* TBCMPerfilesViewController.swift */,
+				A4BCDF6321FA95F700DF3420 /* TBCMPerfiles.storyboard */,
+				A4BCDF6521FA965900DF3420 /* TBCPerfilesNegocioViewController.swift */,
+				A40E50D421FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.swift */,
+				A40E50D521FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.xib */,
+				A40E50D821FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.swift */,
+				A40E50D921FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.xib */,
+			);
+			path = TabBarControllerNegocio;
+			sourceTree = "<group>";
+		};
 		BF138F4E2142CA9F003DB920 /* DosCeldaTabla */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +293,7 @@
 		BF20A10421386E43005C812E /* pruebavisuales */ = {
 			isa = PBXGroup;
 			children = (
+				A4BCDF6021FA959500DF3420 /* TabBarControllerNegocio */,
 				BF1BC8CF2139C8D300E02203 /* VC Pantallas */,
 				BF1BC8CE2139C8BC00E02203 /* Datos */,
 				BF1BC8CD2139C8A900E02203 /* NavController */,
@@ -424,10 +453,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF20A11021386E43005C812E /* LaunchScreen.storyboard in Resources */,
+				A40E50D721FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.xib in Resources */,
 				BF138F562142DE9A003DB920 /* TVCellDelCarrousel.xib in Resources */,
 				BF20A10D21386E43005C812E /* Assets.xcassets in Resources */,
 				BFDB38F5213DDF1B00112995 /* InsideaCountry.xib in Resources */,
 				BF138F5E2142EC3E003DB920 /* CVCellDeCarrousel.xib in Resources */,
+				A4BCDF6421FA95F700DF3420 /* TBCMPerfiles.storyboard in Resources */,
+				A40E50DB21FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.xib in Resources */,
 				0204971E21CCC178006FE920 /* Match.storyboard in Resources */,
 				BF29B6A5214097E100C9E99C /* TVCell.xib in Resources */,
 				BF20A10B21386E43005C812E /* Main.storyboard in Resources */,
@@ -547,11 +579,15 @@
 				BF20A10821386E43005C812E /* ViewController.swift in Sources */,
 				BF1BC8C22138DB1F00E02203 /* CountriesCollectionViewCell.swift in Sources */,
 				BFDB38F4213DDF1B00112995 /* InsideaCountry.swift in Sources */,
+				A40E50DA21FC110C00238FCF /* TBCPerfilesPersonasCollectionViewCell.swift in Sources */,
+				A4BCDF6221FA95EB00DF3420 /* TBCMPerfilesViewController.swift in Sources */,
 				BF5E3906214867E40005A929 /* VCMapSpot.swift in Sources */,
+				A4BCDF6621FA965900DF3420 /* TBCPerfilesNegocioViewController.swift in Sources */,
 				BF5E3982214B07790005A929 /* VCProfile.swift in Sources */,
 				BF138F5D2142EC3E003DB920 /* CVCellDeCarrousel.swift in Sources */,
 				BF138F552142DE9A003DB920 /* TVCellDelCarrousel.swift in Sources */,
 				BF1BC8C72139AE5300E02203 /* Pais.swift in Sources */,
+				A40E50D621FC0F5100238FCF /* TBCPerfilesOnNegocioTableViewCell.swift in Sources */,
 				BF1BC8442138A1E000E02203 /* VCMain.swift in Sources */,
 				BF20A10621386E43005C812E /* AppDelegate.swift in Sources */,
 				BF1BC8D32139D1D500E02203 /* VCShowSelection.swift in Sources */,
@@ -725,10 +761,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E6NT6FDC5U;
+				DEVELOPMENT_TEAM = T2SGY3LL4V;
 				INFOPLIST_FILE = pruebavisuales/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = adriandgzg.pruebavisuales;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebavisuales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -741,10 +777,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E6NT6FDC5U;
+				DEVELOPMENT_TEAM = T2SGY3LL4V;
 				INFOPLIST_FILE = pruebavisuales/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = adriandgzg.pruebavisuales;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebavisuales;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
