@@ -155,7 +155,8 @@ class VCExplore: UIViewController, UITableViewDelegate, UITableViewDataSource, U
     
     func ClickItemCarrousel(placetoClick: Lugar) {
         print ( placetoClick )
-        
+      self.performSegue(withIdentifier: "matchSegue", sender: nil)
+    
     }
     
     

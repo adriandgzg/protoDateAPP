@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0204971E21CCC178006FE920 /* Match.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0204971D21CCC178006FE920 /* Match.storyboard */; };
-		3A764DED21FC069500BFAFC0 /* ProfileStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A764DEC21FC069500BFAFC0 /* ProfileStoryboard.storyboard */; };
 		3A764DF121FC10C200BFAFC0 /* MatchProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A764DF021FC10C200BFAFC0 /* MatchProfileViewController.swift */; };
-		3A764DF321FC2A4F00BFAFC0 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A764DF221FC2A4F00BFAFC0 /* OverlayView.xib */; };
 		3A764DFA21FC2A9C00BFAFC0 /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A764DF421FC2A9C00BFAFC0 /* CustomOverlayView.xib */; };
 		3A764DFB21FC2A9C00BFAFC0 /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A764DF521FC2A9C00BFAFC0 /* CustomOverlayView.swift */; };
 		3A764DFC21FC2A9C00BFAFC0 /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A764DF621FC2A9C00BFAFC0 /* BackgroundAnimationViewController.swift */; };
@@ -18,6 +16,8 @@
 		3A764DFE21FC2A9C00BFAFC0 /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A764DF821FC2A9C00BFAFC0 /* CustomKolodaView.swift */; };
 		3A764DFF21FC2A9C00BFAFC0 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A764DF921FC2A9C00BFAFC0 /* ExampleOverlayView.swift */; };
 		3A764E0521FC3A4300BFAFC0 /* ButtomMenuTabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A764E0421FC3A4300BFAFC0 /* ButtomMenuTabsViewController.swift */; };
+		3A764E0721FC54AE00BFAFC0 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A764E0621FC54AE00BFAFC0 /* OverlayView.xib */; };
+		3A764E0921FC56AA00BFAFC0 /* ProfileStoryboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A764E0821FC56AA00BFAFC0 /* ProfileStoryboard2.storyboard */; };
 		3ADCF1D321FAC47500AFDDE1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCF1D221FAC47500AFDDE1 /* Helper.swift */; };
 		3ADCF1D621FADF5500AFDDE1 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCF1D521FADF5500AFDDE1 /* FloatLabelTextField.swift */; };
 		4826DF4A826ABE9F54736D71 /* Pods_pruebavisualesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D271B99524D496DF39F3F69F /* Pods_pruebavisualesUITests.framework */; };
@@ -80,9 +80,7 @@
 		0204971D21CCC178006FE920 /* Match.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Match.storyboard; sourceTree = "<group>"; };
 		07A57B2DEE471B520D9E1B66 /* Pods-pruebavisualesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisualesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisualesUITests/Pods-pruebavisualesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		387A0D8FD3BA0939B7D47612 /* Pods-pruebavisuales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisuales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisuales/Pods-pruebavisuales.debug.xcconfig"; sourceTree = "<group>"; };
-		3A764DEC21FC069500BFAFC0 /* ProfileStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileStoryboard.storyboard; sourceTree = "<group>"; };
 		3A764DF021FC10C200BFAFC0 /* MatchProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchProfileViewController.swift; sourceTree = "<group>"; };
-		3A764DF221FC2A4F00BFAFC0 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		3A764DF421FC2A9C00BFAFC0 /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
 		3A764DF521FC2A9C00BFAFC0 /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
 		3A764DF621FC2A9C00BFAFC0 /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
@@ -90,8 +88,10 @@
 		3A764DF821FC2A9C00BFAFC0 /* CustomKolodaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
 		3A764DF921FC2A9C00BFAFC0 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
 		3A764E0421FC3A4300BFAFC0 /* ButtomMenuTabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtomMenuTabsViewController.swift; sourceTree = "<group>"; };
+		3A764E0621FC54AE00BFAFC0 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		3A764E0821FC56AA00BFAFC0 /* ProfileStoryboard2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileStoryboard2.storyboard; sourceTree = "<group>"; };
 		3ADCF1D221FAC47500AFDDE1 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		3ADCF1D521FADF5500AFDDE1 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		3ADCF1D521FADF5500AFDDE1 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatLabelTextField.swift; path = ../../InstaDate/Controllers/Profile/utilitiesClasses/FloatLabelTextField.swift; sourceTree = "<group>"; };
 		41D7CDD4FAC4ACFA4486212F /* Pods_pruebavisualesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pruebavisualesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8684E9F99468C737D70F2A4F /* Pods-pruebavisualesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisualesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisualesTests/Pods-pruebavisualesTests.release.xcconfig"; sourceTree = "<group>"; };
 		A255F59B0D9D5B3E4417236F /* Pods-pruebavisuales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisuales.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisuales/Pods-pruebavisuales.release.xcconfig"; sourceTree = "<group>"; };
@@ -196,9 +196,9 @@
 		3A764DEF21FC10A300BFAFC0 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				3A764E0621FC54AE00BFAFC0 /* OverlayView.xib */,
 				3A764E0121FC36A900BFAFC0 /* utilitiesClasses */,
 				3A764DF421FC2A9C00BFAFC0 /* CustomOverlayView.xib */,
-				3A764DF221FC2A4F00BFAFC0 /* OverlayView.xib */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				3A764DEE21FC109900BFAFC0 /* Controllers */,
-				3A764DEC21FC069500BFAFC0 /* ProfileStoryboard.storyboard */,
+				3A764E0821FC56AA00BFAFC0 /* ProfileStoryboard2.storyboard */,
 			);
 			path = InstaDate;
 			sourceTree = "<group>";
@@ -517,12 +517,12 @@
 				BFDB38F5213DDF1B00112995 /* InsideaCountry.xib in Resources */,
 				BF138F5E2142EC3E003DB920 /* CVCellDeCarrousel.xib in Resources */,
 				0204971E21CCC178006FE920 /* Match.storyboard in Resources */,
+				3A764E0721FC54AE00BFAFC0 /* OverlayView.xib in Resources */,
 				BF29B6A5214097E100C9E99C /* TVCell.xib in Resources */,
 				BF20A10B21386E43005C812E /* Main.storyboard in Resources */,
 				BF1BC8C32138DB1F00E02203 /* CountriesCollectionViewCell.xib in Resources */,
-				3A764DED21FC069500BFAFC0 /* ProfileStoryboard.storyboard in Resources */,
-				3A764DF321FC2A4F00BFAFC0 /* OverlayView.xib in Resources */,
 				BF29B6A82140BE1D00C9E99C /* GoogleService-Info.plist in Resources */,
+				3A764E0921FC56AA00BFAFC0 /* ProfileStoryboard2.storyboard in Resources */,
 				BF138F5A2142DFBB003DB920 /* TVCelldeImagenes.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
