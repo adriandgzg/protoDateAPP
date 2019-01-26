@@ -10,7 +10,7 @@ import UIKit
 
 class TVCelldeImagenes: UITableViewCell {
 
-    
+  
     @IBOutlet weak var imagen2: UIImageView!
     @IBOutlet weak var lbl2: UILabel!
     

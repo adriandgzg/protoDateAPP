@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Match Profile View Controller-->
         <scene sceneID="zQx-kf-wuK">
             <objects>
-                <viewController id="hfT-jO-MTk" sceneMemberID="viewController">
+                <viewController id="hfT-jO-MTk" customClass="MatchProfileViewController" customModule="pruebavisuales" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fUN-EH-SOb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,7 +94,6 @@
         <!--View Controller-->
         <scene sceneID="HqZ-NG-lmN">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eYb-gU-DS8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Uoc-r2-jOw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8OK-fn-2nD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -145,6 +144,7 @@
                         <viewLayoutGuide key="safeArea" id="hTY-VR-0F4"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eYb-gU-DS8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1236" y="-313.49325337331339"/>
         </scene>

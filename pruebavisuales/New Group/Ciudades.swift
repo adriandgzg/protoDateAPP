@@ -60,7 +60,8 @@ class Ciudades : NSObject {
     //Crear una variable con la URL dada
     func obtendatos(){
         
-        let urlString : String = "https://api.myjson.com/bins/mwvh0=json"
+        ///let urlString : String = "https://api.myjson.com/bins/mwvh0=json"
+        let urlString: String = "https://api.myjson.com/bins/12pmc0"
         
         //Comprueba la condicion y (solo si es falso), se ejecuta la condicion
         guard let url = URL(string: urlString) else { return }

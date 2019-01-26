@@ -36,7 +36,7 @@ class TVCellDelCarrousel: UITableViewCell, UICollectionViewDelegate , UICollecti
     func regresaConfiguraciondeELEmentosdelCollection()-> UICollectionViewLayout{
         
         let layout = UICollectionViewFlowLayout()
-        let cellsize = CGSize (width: 120, height: 110)
+        let cellsize = CGSize (width: 100, height: 110)
         layout.scrollDirection = .horizontal
         layout.minimumLineSpacing = 15
         layout.minimumInteritemSpacing = 1
