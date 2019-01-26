@@ -10,6 +10,7 @@ import Foundation
 
 protocol carrouselItemDelegate {
     func ClickItemCarrousel ( placetoClick : Lugar)
+    func clickCustomHeader()
 }
 
 protocol finishLoadDataDelegate{

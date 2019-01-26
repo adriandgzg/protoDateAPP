@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -41,14 +41,26 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                             </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1b-GS-Ndz">
+                                <rect key="frame" x="20" y="12" width="532" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="xxW-7x-2Z6"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="funcClickHeader:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3ep-Kc-J2a"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="amE-yo-NeC" firstAttribute="top" secondItem="ykj-hv-D4O" secondAttribute="top" constant="10" id="ESw-zv-n6a"/>
                             <constraint firstAttribute="trailing" secondItem="amE-yo-NeC" secondAttribute="trailing" constant="20" id="JSY-j5-NTc"/>
+                            <constraint firstAttribute="trailing" secondItem="R1b-GS-Ndz" secondAttribute="trailing" constant="20" id="PDo-4c-a3L"/>
                             <constraint firstAttribute="bottom" secondItem="fIL-Sb-QUu" secondAttribute="bottom" id="SyA-ci-pOX"/>
                             <constraint firstItem="fIL-Sb-QUu" firstAttribute="top" secondItem="amE-yo-NeC" secondAttribute="bottom" constant="8" symbolic="YES" id="ag5-nd-IWN"/>
+                            <constraint firstItem="R1b-GS-Ndz" firstAttribute="leading" secondItem="ykj-hv-D4O" secondAttribute="leading" constant="20" id="jeY-b2-Ci2"/>
                             <constraint firstItem="fIL-Sb-QUu" firstAttribute="trailing" secondItem="amE-yo-NeC" secondAttribute="trailing" id="ldp-j0-dN0"/>
+                            <constraint firstItem="R1b-GS-Ndz" firstAttribute="top" secondItem="ykj-hv-D4O" secondAttribute="top" constant="12" id="u9t-Nn-jW5"/>
                             <constraint firstItem="fIL-Sb-QUu" firstAttribute="leading" secondItem="ykj-hv-D4O" secondAttribute="leading" constant="24" id="vqF-9H-mo5"/>
                             <constraint firstItem="amE-yo-NeC" firstAttribute="leading" secondItem="ykj-hv-D4O" secondAttribute="leading" constant="20" id="zHN-Xo-lMv"/>
                         </constraints>
@@ -66,7 +78,7 @@
                 <outlet property="lblTitulodeCarrusel" destination="amE-yo-NeC" id="jEp-CZ-IdP"/>
                 <outlet property="mycollection" destination="fIL-Sb-QUu" id="BrC-VD-Ue4"/>
             </connections>
-            <point key="canvasLocation" x="118" y="206.5"/>
+            <point key="canvasLocation" x="116.8" y="205.99700149925039"/>
         </tableViewCell>
     </objects>
 </document>

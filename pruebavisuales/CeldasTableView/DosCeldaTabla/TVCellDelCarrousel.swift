@@ -48,6 +48,10 @@ class TVCellDelCarrousel: UITableViewCell, UICollectionViewDelegate , UICollecti
         return layout
     }
     
+    @IBAction func funcClickHeader(_ sender: Any) {
+        
+        DelegateClick?.clickCustomHeader()
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

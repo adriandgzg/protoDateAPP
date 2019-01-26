@@ -962,7 +962,7 @@
                     <viewLayoutGuide key="safeArea" id="wxA-h7-VSV"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="4168.8000000000002" y="738.53073463268368"/>
+            <point key="canvasLocation" x="4346" y="853"/>
         </scene>
         <!--Explore-->
         <scene sceneID="vQq-4i-NiF">
@@ -1000,6 +1000,7 @@
                         <outlet property="TableViewExplore" destination="CTl-5t-WFb" id="Npb-QQ-2r8"/>
                         <outlet property="searchbar" destination="XJY-hP-tdj" id="aIj-PA-ZMR"/>
                         <segue destination="Jdy-wP-UP2" kind="show" identifier="matchSegue" id="vmK-y1-De2"/>
+                        <segue destination="nkU-LH-m5y" kind="show" identifier="showPlaces" id="42b-I1-ghS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gXD-SR-K4j" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1320,7 +1321,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QYd-QQ-hR6" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="OWw-Nk-0yF"/>
             </objects>
-            <point key="canvasLocation" x="5119" y="739"/>
+            <point key="canvasLocation" x="5492" y="740"/>
         </scene>
         <!--Log In-->
         <scene sceneID="i1f-hg-9lW">
@@ -1600,7 +1601,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="LKR-Pl-c0p"/>
-        <segue reference="eMu-MJ-JQn"/>
+        <segue reference="42b-I1-ghS"/>
         <segue reference="uLy-RY-hMs"/>
         <segue reference="3sI-JT-IHC"/>
     </inferredMetricsTieBreakers>

@@ -130,6 +130,8 @@ class VCExplore: UIViewController, UITableViewDelegate, UITableViewDataSource, U
         
 }
     
+    
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if indexPath.section == 0{
             return 170.0
@@ -159,7 +161,10 @@ class VCExplore: UIViewController, UITableViewDelegate, UITableViewDataSource, U
       self.performSegue(withIdentifier: "matchSegue", sender: nil)
     
     }
-    
+    func clickCustomHeader(){
+        print("header")
+        self.performSegue(withIdentifier: "showPlaces", sender: nil)
+    }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
