@@ -21,7 +21,8 @@ class VCSingUp: UIViewController {
     @IBOutlet weak var btnCrearcuenta: UIButton!
     @IBOutlet weak var btnfacebook: UIButton!
     @IBOutlet weak var viewvista: UIView!
-
+    @IBOutlet weak var btnLogin: UIButton!
+    
     override func viewWillAppear(_ animated: Bool) {
         
         txtpassword.text = nil
@@ -30,6 +31,8 @@ class VCSingUp: UIViewController {
         txtmail.text = nil
     }
     
+    @IBAction func btnBack(_ sender: Any) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,6 +49,8 @@ class VCSingUp: UIViewController {
         imagenalaizquierda(textfiel: txtrepassword, imagenes: #imageLiteral(resourceName: "cand"))
         imagenalaizquierda(textfiel: txtmail, imagenes: #imageLiteral(resourceName: "mail"))
 
+        self.btnCrearcuenta.applyGradient(withColours: degreeColorGeneric(), gradientOrientation: .horizontal)
+        self.btnLogin.applyGradient(withColours: degreeColorGeneric(), gradientOrientation: .horizontal)
     }
 
     override func didReceiveMemoryWarning() {

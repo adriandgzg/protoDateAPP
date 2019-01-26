@@ -196,6 +196,7 @@
 		3A764DEF21FC10A300BFAFC0 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				3A764E0A21FCB76800BFAFC0 /* UserDetail */,
 				3A764E0621FC54AE00BFAFC0 /* OverlayView.xib */,
 				3A764E0121FC36A900BFAFC0 /* utilitiesClasses */,
 				3A764DF421FC2A9C00BFAFC0 /* CustomOverlayView.xib */,
@@ -222,6 +223,13 @@
 				3A764DF721FC2A9C00BFAFC0 /* BackgroundKolodaAnimator.swift */,
 			);
 			path = utilitiesClasses;
+			sourceTree = "<group>";
+		};
+		3A764E0A21FCB76800BFAFC0 /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserDetail;
 			sourceTree = "<group>";
 		};
 		3ADCF1D121FAC46300AFDDE1 /* Helper */ = {

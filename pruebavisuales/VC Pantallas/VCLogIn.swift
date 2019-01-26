@@ -37,8 +37,8 @@ class VCLogIn: UIViewController {
         viewvista.layer.cornerRadius = 10
         btncrearcuenta.layer.cornerRadius = 10
         btnfacebook.layer.cornerRadius = 5
-        
-//        imagenalaizquierda(textfiel: txtusername, imagenes: #imageLiteral(resourceName: "user-1"))
+    
+//      imagenalaizquierda(textfiel: txtusername, imagenes: #imageLiteral(resourceName: "user-1"))
 //
 //
 //        imagenalaizquierda(textfiel: txtpassword, imagenes: #imageLiteral(resourceName: "cand"))
