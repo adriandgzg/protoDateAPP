@@ -18,7 +18,9 @@ class VCLogIn: UIViewController {
     @IBOutlet weak var btncrearcuenta: UIButton!
     @IBOutlet weak var btnfacebook: UIButton!
     
+    @IBOutlet weak var viewSeparator1: UIView!
     
+    @IBOutlet weak var viewSeparator2psw: UIView!
     
     override func viewWillAppear(_ animated: Bool)
     {
@@ -28,17 +30,21 @@ class VCLogIn: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain , target: nil, action: nil)
-        
-
+        self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.navigationBar.backgroundColor = UIColor.red
+        self.navigationController?.navigationBar.backItem?.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        self.navigationController?.navigationBar.isTranslucent = true 
         viewvista.layer.cornerRadius = 10
         btncrearcuenta.layer.cornerRadius = 10
         btnfacebook.layer.cornerRadius = 5
         
-        imagenalaizquierda(textfiel: txtusername, imagenes: #imageLiteral(resourceName: "user-1"))
-        imagenalaizquierda(textfiel: txtpassword, imagenes: #imageLiteral(resourceName: "cand"))
-        
+//        imagenalaizquierda(textfiel: txtusername, imagenes: #imageLiteral(resourceName: "user-1"))
+//
+//
+//        imagenalaizquierda(textfiel: txtpassword, imagenes: #imageLiteral(resourceName: "cand"))
+        self.btncrearcuenta.configuredegraded()
+        self.viewSeparator1.applyGradient(withColours: degreeColorGeneric(), gradientOrientation: .horizontal)
+        self.viewSeparator2psw.applyGradient(withColours: degreeColorGeneric(), gradientOrientation: .horizontal)
         // Do any additional setup after loading the view.
     }
 

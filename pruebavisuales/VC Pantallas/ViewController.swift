@@ -23,22 +23,19 @@ class ViewController: UIViewController {
         
         btnLogIn.layer.cornerRadius = 10
         btnSingUp.layer.cornerRadius = 10
-        self.navigationController?.navigationBar.backIndicatorImage = UIImage (named : "back-1")
-        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = UIImage(named : "back-1")
         
-        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain , target: nil, action: nil)
-        self.navigationItem.backBarButtonItem?.tintColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+        
+        self.navigationController?.isNavigationBarHidden = true
+        
+  
+        self.btnLogIn.applyGradient(withColours:degreeColorGeneric(), gradientOrientation: .horizontal)
+        
+        self.btnSingUp.applyGradient(withColours:degreeColorGeneric(), gradientOrientation: .horizontal)
         
      
         }
         
-    
-  /*  override func viewDidAppear(_ animated: Bool){
-        super.viewDidAppear(animated)
-        if Auth.auth().currentUser != nil {
-            self.performSegue(withIdentifier: "VCInitial", sender: nil)
-        }
-    } */
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

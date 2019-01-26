@@ -12,16 +12,19 @@ class Navcontroller: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        self.navigationBar.shadowImage = UIImage ()
-        
+      print("navigationcontroller")
+         //self.navigationController?.navigationBar.backgroundColor = UIColor.white
+       
+        self.navigationBar.barTintColor = UIColor.white
+    
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 
     /*
     // MARK: - Navigation

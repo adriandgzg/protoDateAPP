@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0204971E21CCC178006FE920 /* Match.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0204971D21CCC178006FE920 /* Match.storyboard */; };
 		3ADCF1D321FAC47500AFDDE1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCF1D221FAC47500AFDDE1 /* Helper.swift */; };
+		3ADCF1D621FADF5500AFDDE1 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCF1D521FADF5500AFDDE1 /* FloatLabelTextField.swift */; };
 		4826DF4A826ABE9F54736D71 /* Pods_pruebavisualesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D271B99524D496DF39F3F69F /* Pods_pruebavisualesUITests.framework */; };
 		786071A7268F576EF1981FFC /* Pods_pruebavisualesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D7CDD4FAC4ACFA4486212F /* Pods_pruebavisualesTests.framework */; };
 		87AD57A24E0427B38ACD3E0D /* Pods_pruebavisuales.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D4D0A2C596D47D20C85340 /* Pods_pruebavisuales.framework */; };
@@ -70,6 +71,7 @@
 		07A57B2DEE471B520D9E1B66 /* Pods-pruebavisualesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisualesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisualesUITests/Pods-pruebavisualesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		387A0D8FD3BA0939B7D47612 /* Pods-pruebavisuales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisuales.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisuales/Pods-pruebavisuales.debug.xcconfig"; sourceTree = "<group>"; };
 		3ADCF1D221FAC47500AFDDE1 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3ADCF1D521FADF5500AFDDE1 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
 		41D7CDD4FAC4ACFA4486212F /* Pods_pruebavisualesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pruebavisualesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8684E9F99468C737D70F2A4F /* Pods-pruebavisualesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisualesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisualesTests/Pods-pruebavisualesTests.release.xcconfig"; sourceTree = "<group>"; };
 		A255F59B0D9D5B3E4417236F /* Pods-pruebavisuales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pruebavisuales.release.xcconfig"; path = "Pods/Target Support Files/Pods-pruebavisuales/Pods-pruebavisuales.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,9 +166,17 @@
 		3ADCF1D121FAC46300AFDDE1 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				3ADCF1D521FADF5500AFDDE1 /* FloatLabelTextField.swift */,
 				3ADCF1D221FAC47500AFDDE1 /* Helper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		3ADCF1D421FACE8D00AFDDE1 /* InstaDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InstaDate;
 			sourceTree = "<group>";
 		};
 		4B88F9240C86FCC2997C4DAC /* Frameworks */ = {
@@ -253,6 +263,7 @@
 		BF20A0F921386E43005C812E = {
 			isa = PBXGroup;
 			children = (
+				3ADCF1D421FACE8D00AFDDE1 /* InstaDate */,
 				BF20A10421386E43005C812E /* pruebavisuales */,
 				BF20A11921386E43005C812E /* pruebavisualesTests */,
 				BF20A12421386E43005C812E /* pruebavisualesUITests */,
@@ -385,7 +396,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Adrian Pascual Dominguez";
 				TargetAttributes = {
 					BF20A10121386E43005C812E = {
@@ -566,6 +577,7 @@
 				BF5E3982214B07790005A929 /* VCProfile.swift in Sources */,
 				BF138F5D2142EC3E003DB920 /* CVCellDeCarrousel.swift in Sources */,
 				BF138F552142DE9A003DB920 /* TVCellDelCarrousel.swift in Sources */,
+				3ADCF1D621FADF5500AFDDE1 /* FloatLabelTextField.swift in Sources */,
 				BF1BC8C72139AE5300E02203 /* Pais.swift in Sources */,
 				BF1BC8442138A1E000E02203 /* VCMain.swift in Sources */,
 				BF20A10621386E43005C812E /* AppDelegate.swift in Sources */,
@@ -641,6 +653,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -648,6 +661,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -698,6 +712,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -705,6 +720,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
