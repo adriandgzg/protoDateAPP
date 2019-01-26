@@ -86,6 +86,7 @@ class VCExplore: UIViewController, UITableViewDelegate, UITableViewDataSource, U
             cargaImagenFromUrl(uiImage: celda.imagen2 , UrlImage: (resultadoBusqueda[indexPath.row].imgPlace))
             celda.selectionStyle = .none
             celda.imagen2.layer.cornerRadius = 10
+            
             return celda
             
         }
@@ -99,7 +100,7 @@ class VCExplore: UIViewController, UITableViewDelegate, UITableViewDataSource, U
             cell.arrDatosDelCarrusel = ciudades?.arrCarruseles[indexPath.row]
                 
             cell.lblTitulodeCarrusel.text = ciudades?.arrCarruseles[indexPath.row].titulo
-                
+            
                 cell.selectionStyle = .none
                 return cell
             

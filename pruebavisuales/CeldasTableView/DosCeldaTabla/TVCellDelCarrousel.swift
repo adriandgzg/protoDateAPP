@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import  FaceAware
 class TVCellDelCarrousel: UITableViewCell, UICollectionViewDelegate , UICollectionViewDataSource{
     
     var DelegateClick : carrouselItemDelegate?
@@ -64,8 +64,9 @@ class TVCellDelCarrousel: UITableViewCell, UICollectionViewDelegate , UICollecti
         
         cell.lblcelda.text = arrDatosDelCarrusel?.arrLugares[indexPath.row].titulo
         cargaImagenFromUrl(uiImage: cell.imgcelda , UrlImage: (arrDatosDelCarrusel?.arrLugares[indexPath.row].imgPlace)!)
-
+        
         cell.imgcelda.sizeToFit()
+        cell.imgcelda.focusOnFaces = true 
         cell.layer.cornerRadius = 10
         return cell
     }

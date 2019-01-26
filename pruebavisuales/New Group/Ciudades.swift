@@ -116,10 +116,12 @@ class Ciudades : NSObject {
                     lugaresfinales.imgPlace = item2["imgPlace"] as! String
                     
                     itemcarrusel1.arrLugares.append(lugaresfinales)
+                    itemcarrusel1.arrLugares.append(lugaresfinales)
                 }
                 
                 
                 ciudad.arrCarruseles.append(itemcarrusel1)
+                
             }
             
             for item2 in dictionary ["arrFeatures"] as! [Dictionary<String,Any?>]
